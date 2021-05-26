@@ -8,6 +8,7 @@ import { Grid, Card, CardContent } from '@material-ui/core'
 const Post = (props) => {
 
     const data = props.data
+    console.log(data)
     let previewImg = data.preview
     let title = data.title.replace(/&amp;/g, '&')
 
